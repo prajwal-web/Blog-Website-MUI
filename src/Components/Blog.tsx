@@ -22,7 +22,9 @@ const Blog = () => {
       </Box>
 
       <Box sx={{ my: 2 }}>
-        <Button variant="contained">All categories</Button>
+        <Button variant="text" sx={{ backgroundColor: "gray", color: "white" }}>
+          All categories
+        </Button>
         <Button variant="text">Company</Button>
         <Button variant="text">Product</Button>
         <Button variant="text">Design</Button>
